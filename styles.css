@@ -37,3 +37,44 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.hero {
+    padding: 24px 124px 24px 124px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left p {
+    margin-bottom: 8px;
+}
+
+.button {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 8px 16px;
+    background-color:#3882F6 ;
+}
+
+.hero-right {
+   width: 1200px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+    
+}
