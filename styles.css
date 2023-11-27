@@ -39,7 +39,7 @@ a {
 }
 
 .hero {
-    padding: 24px 124px 24px 124px;
+    padding: 24px 124px 124px 124px;
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -59,11 +59,11 @@ a {
 
 .button {
     display: flex;
-    border-radius: 10px;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    padding: 8px 16px;
+    width: 120px;
+    padding: 8px 24px;
     background-color:#3882F6 ;
 }
 
@@ -84,13 +84,17 @@ a {
 }
 
 .info h2 {
+    font-size: 36px;
+    font-weight: 800;
     margin-bottom: 36px;
 }
 
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
+    margin-bottom: 64px;
 }
 
 .info-card {
@@ -98,16 +102,37 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    
-
+    width: 120px;
 }
 
 .info-box {
-    height: 150px;
-    width: 150px;
-    border: 2px solid #3882F6;
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882F6;
     border-radius: 12px;
     margin-bottom: 8px;
    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 24px 124px 24px 124px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column;
+    width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-sign {
+   text-align: right;
+   font-weight: 500;
 }
