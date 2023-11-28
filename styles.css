@@ -81,6 +81,7 @@ a {
 
 .info {
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .info h2 {
@@ -102,12 +103,12 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 160px;
 }
 
 .info-box {
-    height: 120px;
-    width: 120px;
+    height: 160px;
+    width: 160px;
     border: 3px solid #3882F6;
     border-radius: 12px;
     margin-bottom: 8px;
@@ -116,9 +117,10 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 24px 124px 24px 124px;
+    padding: 124px 124px 124px 124px;
     display: flex;
     justify-content: center;
+    margin-bottom: 64px;
 }
 
 .quote-container {
@@ -134,5 +136,27 @@ a {
 
 .quote-sign {
    text-align: right;
+   font-size: 1.3rem;
    font-weight: 500;
+}
+
+.call-to {
+    padding: 24px 124px 124px 124px;
+}
+
+.call-to-container {
+    padding: 40px 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.call-to-container .button {
+    border: solid 2px white;
+    flex-shrink: 0;
+    flex-direction: 0;
 }
