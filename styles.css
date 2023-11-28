@@ -160,3 +160,12 @@ a {
     flex-shrink: 0;
     flex-direction: 0;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0px;
+}
